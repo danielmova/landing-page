@@ -81,3 +81,45 @@
     border: none;
 }
 /*end of styles for the hero part*/
+
+/*Styles for the information part*/
+.information-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: white;
+}
+
+.heading-information{
+    font-family: roboto;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.information-grid{
+    display: flex;
+}
+
+.information-pacakge{
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.information-card{
+    border: solid 3px #3882F6;
+    border-radius: 8px;
+}
+
+.paragraph-information{
+    font-family: roboto;
+    font-size: 16px;
+    text-align:justify;
+    text-align-last: center;
+    color: #1f2937;
+}
+/*End of styles for the information part*/
