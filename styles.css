@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #1f2937;
+}
+
+.menu{
+    width: 900px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu-items{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links{
+    font-family: roboto;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 20px;
+}
