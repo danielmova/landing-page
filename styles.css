@@ -1,3 +1,4 @@
+/*Styles for the top menu*/
 *{
     margin: 0;
     padding: 0;
@@ -36,3 +37,47 @@
     color: #E5E7EB;
     margin-left: 20px;
 }
+/*end of the styles for the top menu*/
+
+/*Styles for the hero part*/
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #1f2937;
+}
+
+.hero-column-left{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.title-hero{
+    font-family: roboto;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.paragraph-hero{
+    font-family: roboto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sing-up{
+    font-family: roboto;
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 50px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+    border: none;
+}
+/*end of styles for the hero part*/
