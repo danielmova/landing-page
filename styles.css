@@ -158,3 +158,53 @@
 }
 /*End of styles for the iquote part*/
 /*Styles for the call to action part*/
+.call-to-action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 900px;
+    padding: 40px 50px;
+    border-radius: 8px;
+}
+
+.heading-call-to-action{
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-right: 20px;
+}
+
+.paragraph-call-to-action{
+    font-family: roboto;
+    font-size: 16px;
+    color: #F9FAF8;
+}
+
+.sing-up{
+    border: solid 2px #F9FAF8;
+    margin: 0;
+}
+/*End of styles for the call to action part*/
+/*Styles for the footer part*/
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #1f2937;
+}
+
+.footer-paragraph{
+    font-family: roboto;
+    font-size: 16px;
+    color: #F9FAF8;
+}
